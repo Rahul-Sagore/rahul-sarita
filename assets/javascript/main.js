@@ -75,7 +75,7 @@ function initMap() {
   }).addTo(mymap);
 
   var greenIcon = L.icon({
-    iconUrl: '/assets/images/marker.png',
+    iconUrl: './assets/images/marker.png',
     iconSize:     [50, 50], // size of the icon
     iconAnchor:   [50, 30], // point of the icon which will correspond to marker's location
     popupAnchor:  [-25, -35] // point from which the popup should open relative to the iconAnchor
